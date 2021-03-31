@@ -24,7 +24,7 @@
     {
       "run_at" :"document_end",
       "matches": ["https://www.nitrotype.com/login/*","https://nitrotype.com/login/*","https://www.nitrotype.com/signup/*","https://nitrotype.com/signup/*"],
-      "js": ["script2.js"]
+      "js": ["script3.js"]
     }
   ],
   "permissions": [
