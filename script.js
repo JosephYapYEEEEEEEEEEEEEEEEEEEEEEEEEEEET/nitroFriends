@@ -1,4 +1,10 @@
 var nitro = document.getElementsByClassName("db type-ellip type-ellip--account")[0].innerText;
+var af = document.getElementsByClassName("nav-list-item")[4];
+var ag = af.getElementsByClassName("nav-link")[0].href;
+if (ag == "https://www.nitrotype.com/class") {
+    af.remove();
+}
+
 if (nitro == undefined){
 } else{
     var header = document.getElementsByClassName("header-nav g g--f well well--t")[0];
