@@ -3,7 +3,7 @@
 
   "name": "Nitro Friends",
   "description": "Shows the friend button anywhere",
-  "version": "0.3.5",
+  "version": "0.3.6",
 
   "browser_action": {
    "default_icon": "icon.png",
@@ -11,6 +11,11 @@
   },
   "web_accessible_resources": ["script.js","script2.js"],
   "content_scripts": [
+    {
+      "run_at" :"document_end",
+      "matches": ["https://www.nitrotype.com/racer/*","https://nitrotype.com/racer/*"],
+      "js": ["badges.js"]
+    },
     {
       "run_at" :"document_end",
       "matches": ["https://www.nitrotype.com/*","https://nitrotype.com/*"],
