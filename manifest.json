@@ -3,7 +3,7 @@
 
   "name": "Nitro Friends",
   "description": "Shows the friend button anywhere",
-  "version": "0.3.9",
+  "version": "0.3.10",
 
   "browser_action": {
    "default_icon": "icon.png",
