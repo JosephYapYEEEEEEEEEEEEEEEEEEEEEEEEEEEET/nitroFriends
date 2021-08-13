@@ -1,7 +1,7 @@
 
 
 const nav_list = document.getElementsByClassName("nav-list")[0]
-const version = "0.3.9";
+const version = "0.3.10";
 var data;
 var nitro = document.getElementsByClassName("db type-ellip type-ellip--account")[0].innerText;
 var af = document.getElementsByClassName("nav-list-item")[4];
