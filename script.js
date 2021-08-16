@@ -1,7 +1,7 @@
 
 
 const nav_list = document.getElementsByClassName("nav-list")[0]
-const version = "0.3.10.3";
+const version = "0.3.10";
 var dataJ;
 var nitro = document.getElementsByClassName("db type-ellip type-ellip--account")[0].innerText;
 var af = document.getElementsByClassName("nav-list-item")[4];
@@ -23,8 +23,8 @@ async function getVersions() {
 }
 
 async function displayData() {
-    if (!(dataJ.version_check[dataJ.version_check.length - 1] == version)) {
-        nav_list.innerHTML = `<li class="nav-list-item"><a href="https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitro-friends/update-available?version=${version}" class="nav-link">Update to ${dataJ.version_check[dataJ.version_check.length - 1]}</a></li>`;
+    if (!(dataJ.version_check_google[dataJ.version_check_google.length - 1] == version)) {
+        nav_list.innerHTML = `<li class="nav-list-item"><a href="https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitro-friends/update-available?version=${version}?chrome-web-store=1" class="nav-link">Update to ${dataJ.version_check_google[dataJ.version_check_google.length - 1]}</a></li>`;
     }
 
 }
