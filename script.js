@@ -24,7 +24,7 @@ async function getVersions() {
 
 async function displayData() {
     if (!(dataJ.version_check_google[dataJ.version_check_google.length - 1] == version)) {
-        nav_list.innerHTML = `<li class="nav-list-item"><a href="https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitro-friends/update-available?version=${version}?chrome-web-store=1" class="nav-link">Update to ${dataJ.version_check_google[dataJ.version_check_google.length - 1]}</a></li>`;
+        nav_list.innerHTML = `<li class="nav-list-item"><a href="https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitro-friends/update-available?version=${version}&chrome-web-store=1" class="nav-link">Update to ${dataJ.version_check_google[dataJ.version_check_google.length - 1]}</a></li>`;
     }
 
 }
