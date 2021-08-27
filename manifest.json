@@ -12,7 +12,6 @@
   "icons": {
     "192": "icon-large.png"
   },
-  "web_accessible_resources": ["script.js","script2.js"],
   "content_scripts": [
     {
       "run_at" :"document_end",
@@ -56,6 +55,5 @@
     }
   ],
   "permissions": [
-   "activeTab"
    ]
 }
