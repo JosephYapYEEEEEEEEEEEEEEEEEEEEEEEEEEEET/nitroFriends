@@ -1,9 +1,9 @@
 
 
 const nav_list = document.getElementsByClassName("nav-list")[0]
-const version = "0.3.10";
+const version = "0.3.11";
 var dataJ;
-var nitro = document.getElementsByClassName("db type-ellip type-ellip--account")[0].innerText;
+var nitro = JSON.parse(JSON.parse(localStorage.getItem("persist:nt"))["user"]).username;
 var af = document.getElementsByClassName("nav-list-item")[4];
 var ag = af.getElementsByClassName("nav-link")[0].href;
 if (ag == "https://www.nitrotype.com/class") {
