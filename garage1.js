@@ -1,4 +1,4 @@
-const buttonLocation = document.getElementsByClassName("split-cell profile-primaryActions")[0];
+const buttonLocation = document.getElementsByClassName("profile--content--primary-actions")[0];
 const storage = localStorage.getItem("persist:nt");
 const user = JSON.parse(JSON.parse(storage)["user"]);
 const username = user.username;
